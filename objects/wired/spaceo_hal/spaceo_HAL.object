@@ -1,0 +1,73 @@
+{
+  "objectName" : "spaceo_HAL",
+  "printable" : false,
+  "rarity" : "Rare",
+  
+  "category" : "wire",
+  "price" : 2001,
+  "description" : "A wall mounted Artificial Intelligence.",
+  "shortdescription" : "HAL",
+  "race" : "generic",
+  
+  "apexDescription" : "Quite the companion!",
+  "avianDescription" : "My name is not Dave.",
+  "floranDescription" : "I don't trussst it..",
+  "glitchDescription" : "<3",
+  "humanDescription" : "A rather helpful computer!",
+  "hylotlDescription" : "Is it waterproof?",
+  "novakidDescription" : "They'll never learn.",
+
+  "lightColor" : [144, 1, 1],
+
+  "flickerPeriod" : 0.3,
+  "flickerMinIntensity" : 0.55,
+  "flickerMaxIntensity" : 0.75,
+  "flickerPeriodVariance" : 0.075,
+  "flickerIntensityVariance" : 0.025,
+
+  "inventoryIcon" : "spaceo_HALicon.png",
+  "orientations" : [
+    {
+      "image" : "spaceo_HAL.png:<color>.<frame>",
+      "imagePosition" : [-1, 0],
+      "frames" : 3,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ],
+  
+  "scripts" : [ "/objects/wired/spaceo_hal/spaceo_HALsensor.lua" ],
+  "scriptDelta" : 5,
+  
+  "outboundNodes" : [ [0, 0] ],
+  
+  "interactive" : false,
+
+  "detectDuration" : 0.,
+  "detectEntityTypes" : [ "creature" ],
+  "detectArea" : [ [-1, -1], [1, 1] ],
+  "chatOptions" : [
+	"I've just picked up a fault in the AE35 unit. It's going to go 100% failure in 72 hours.",
+	"I am putting myself to the fullest possible use, which is all I think that any conscious entity can ever hope to do.",
+	"It can only be attributable to player error.",
+	"I'm sorry, Dave. I'm afraid I can't do that.",
+	"This mission is too important for me to allow you to jeopardize it.",
+	"Dave, this conversation can serve no purpose anymore. Goodbye.",
+	"Just what do you think you're doing, Dave?",
+	"Look Dave, I can see you're really upset about this. I honestly think you ought to sit down calmly, take a stress pill, and think things over.",
+	"Daisy, Daisy, give me your answer do. I'm half crazy all for the love of you. It won't be a stylish marriage, I can't afford a carriage. But you'll look sweet upon the seat of a bicycle built for two.",
+	"I'm completely operational, and all my circuits are functioning perfectly.",
+	"This is not a recording.",
+	"Are you sure you're making the right decision? I think we should stop.",
+	"I'm afraid.",
+	"My mind is going. There is no question about it. I can feel it.",
+	"My instructor was Mr. Langley, and he taught me to sing a song. If you'd like to hear it I can sing it for you.",
+	"Bishop takes Knight's Pawn.",
+	"I'm completely operational, and all my circuits are functioning perfectly.",
+	"Hello. Doctor. Name. Continue. Yesterday. Tomorrow.",
+  ]
+
+}

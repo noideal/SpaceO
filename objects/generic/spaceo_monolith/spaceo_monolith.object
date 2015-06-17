@@ -1,0 +1,34 @@
+{
+  "objectName" : "spaceo_monolith",
+  "printable" : false,
+  "rarity" : "Rare",
+  "category" : "decorative",
+  "price" : 2001,
+  "description" : "It's quite strange.. It appears to not only be from the past, but also from far in the future.",
+  "shortdescription" : "A Monolith",
+  "race" : "generic",
+
+  "apexDescription" : "I feel rather primitive compared to this.",
+  "avianDescription" : "A nice perch.",
+  "floranDescription" : "What is the sssignificance?",
+  "glitchDescription" : "Parsing Error.",
+  "humanDescription" : "I don't feel like we've advanced much.",
+  "hylotlDescription" : "It's pointing up.. to where?",
+  "novakidDescription" : "Some things never change.",
+
+  "inventoryIcon" : "spaceo_monolithicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "spaceo_monolith.png:<color>",
+
+      "imagePosition" : [-12, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

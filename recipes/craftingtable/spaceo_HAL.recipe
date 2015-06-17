@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "laserdiode", "count" : 1 },
+	{ "item" : "circuitboard", "count" : 2 },
+	{ "item" : "durasteelbar", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "spaceo_HAL",
+    "count" : 1
+  },
+  "groups" : [ "craftingtable", "objects", "all", "tools" ]
+}

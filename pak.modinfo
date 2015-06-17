@@ -1,0 +1,12 @@
+{
+  "name" : "moarArt",
+  "version" : "Beta v. Upbeat Giraffe",
+  "path" : ".",
+  "dependencies" : [ ],
+  "metadata": {
+    "author" : "Glu",
+    "description" : "Adds a more pretentious feel to the game",
+	"version" : "001a",
+    "support_url" : ""
+  }
+}
